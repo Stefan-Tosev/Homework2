@@ -4,7 +4,7 @@ public class Example6 {
 
     public static void main(String[] args) {
 
-
+        //initializing the arrays
         int[] array1 = {1, 2, 3};
         int[] array2 = {1, 2, 3};
 
@@ -14,7 +14,7 @@ public class Example6 {
         Object[] arr2 = {array2};
 
         // Checking if arrays are equal or not
-        // using equals() method
+        // using deepEquals() method
         if (Arrays.deepEquals(arr1, arr2))
         // Print statement if arrays are same
         System.out.println("Same");
